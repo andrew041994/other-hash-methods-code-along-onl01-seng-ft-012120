@@ -12,7 +12,7 @@ def get_the_min(groceries)
   items = []
   groceries.each {|key,value| items << value}
   items.flatten
-  item.sort
+  items.sort
   return items.first
 
 end
