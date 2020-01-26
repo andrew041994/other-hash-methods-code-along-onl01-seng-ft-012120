@@ -11,8 +11,7 @@ require 'pry'
 def get_the_min(groceries)
   items = []
   groceries.each {|key,value| items << value}
-  items.flatten
   items.sort
-  return items.first
+  return items
 
 end
