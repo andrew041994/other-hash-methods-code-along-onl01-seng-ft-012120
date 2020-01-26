@@ -9,5 +9,7 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+  items = []
+  groceries.each {|key,value| items << value }
+  items.flatten
 end
